@@ -1,5 +1,5 @@
-#ifndef __LITTLE_ENDIAN__
-#define __LITTLE_ENDIAN__
+#ifndef __S21_MATH__
+#define __S21_MATH__
 
  //// CONSTANTS ////
 
@@ -36,4 +36,4 @@ long double s21_tan(double x);
 long double pow_integer(double x, int n);
 long double factorial(int x);
 
-#endif // __LITTLE_ENDIAN__
+#endif // __S21_MATH__

@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Math::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Math-Debug-47ff697046486a1ca927.json",
+					"jsonFile" : "target-Math-Debug-5907fa35dec613d11497.json",
 					"name" : "Math",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ashleefr/Documents/DockerDirectory/Math/cmake-build-debug",
-		"source" : "C:/Users/ashleefr/Documents/DockerDirectory/Math"
+		"build" : "C:/Users/ashleefr/Documents/DockerDirectory/GitHub_Math/cmake-build-debug",
+		"source" : "C:/Users/ashleefr/Documents/DockerDirectory/GitHub_Math"
 	},
 	"version" : 
 	{

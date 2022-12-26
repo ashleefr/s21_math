@@ -11,7 +11,7 @@ int main() {
     printf("Abs x is %d\n", s21_abs(x)); // нужно сделать проверку на целое число
     printf("Ceil x is %d\n", (int) s21_ceil(x));
     printf("Exp x is %Lf\n", s21_exp(x)); // пока что работает только с целыми
-    printf("Abs x is %Lf\n", s21_fabs(x));
+    printf("FAbs x is %Lf\n", s21_fabs(x));
     printf("x mod y is %Lf\n", s21_fmod(x, y));
     return 0;
 }
@@ -45,7 +45,7 @@ long double s21_ceil(double x) {
     while (result < x) {
         result++;
     }
-//    result--;
+    check_minus == 1 ? result-- : 0;
     check_minus == 1 ? result = -result : 0;
     return result;
 } // возвращает ближайшее целое число, не меньшее заданного значения

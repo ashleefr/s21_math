@@ -3,7 +3,10 @@
 
  //// CONSTANTS ////
 
-#define S21_EXP 2.7182818284590452353602874713527
+#define S21_EXP 2.7182818284590452353602874713526624
+#define S21_PI 3.14159265358979323846264338327950288
+#define S21_EPS 1e-9
+//#define MAX_LONG_DOUBLE !ЧИСЛО!
 
  //// LIBRARIES ////
 
@@ -30,5 +33,7 @@ long double s21_tan(double x);
 
 //// SUPPORT FUNCTIONS ////
 
+long double pow_integer(double x, int n);
+long double factorial(int x);
 
 #endif // __LITTLE_ENDIAN__

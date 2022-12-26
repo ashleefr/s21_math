@@ -1,16 +1,17 @@
 #include "main.h"
+#include <math.h>
 
 int main() {
     double x;
     double y;
     printf("Insert x:");
     scanf("%lf", &x);
-    printf("Insert y :");
+    printf("Insert y:");
     scanf("%lf", &y);
 
     printf("Abs x is %d\n", s21_abs(x)); // нужно сделать проверку на целое число
     printf("Ceil x is %d\n", (int) s21_ceil(x));
-    printf("Exp x is %Lf\n", s21_exp(x)); // пока что работает только с целыми
+    printf("Exp x is %.6Lf\n", s21_exp(x)); // пока что работает только с целыми
     printf("FAbs x is %Lf\n", s21_fabs(x));
     printf("x mod y is %Lf\n", s21_fmod(x, y));
     return 0;
@@ -55,13 +56,20 @@ long double s21_cos(double x) {
 }
 
 long double s21_exp(double x) {
-    long double result = 1;
-
-    for (double i = 0.; i < x; i++) { // Целая часть
-        result = result * S21_EXP;
-        long double test = S21_EXP;
+    long double result = 0;
+//    int check_minus = 0;
+//    x < 0 ? check_minus = 1 : 0;
+    int i = 0;
+    long double temp = pow_integer(x, i) / factorial(i);
+    while (temp > S21_EPS) {
+        temp = pow_integer(x, i) / factorial(i);
+        result += temp;
+        i++;
+//        printf("[DEBUG] %i: our = %Lf\tmath=%lf\n", i, result, pow(x, i) / );
+//        printf("[DEBUG] %d: pow = %Lf\tfactorial = %Lf\tresult = %Lf\tdivide = %Lf\n", i, pow_integer(x, i), factorial(i), result, pow_integer(x, i) / factorial(i));
     }
 
+    x < 0 ? result = 1.0 / result : 0;
     return result;
 } // возвращает значение e, возведенное в заданную степень
 
@@ -83,16 +91,11 @@ long double s21_fmod(double x, double y) {
     y < 0 ? y = -y : 0;
     long double result;
 
-    while (x > y) {
+    while (x >= y) {
         x -= y;
     }
-
-    if (check_minus) { // ПРОВЕРИТЬ НА МАКЕ, НУЖНО ЛИ ТАК ДЕЛАТЬ
-        x -= y;
-        x = -x;
-    }
-    result = x;
-    return result;
+    check_minus ? x = -x : 0;
+    return x;
 } // остаток операции деления с плавающей точкой
 
 long double s21_log(double x) {
@@ -101,7 +104,7 @@ long double s21_log(double x) {
 
 long double s21_pow(double x, double y) {
 
-}
+} // a^x = e^(x*ln(a))
 
 long double s21_sin(double x) {
 

@@ -1,17 +1,19 @@
 #include "s21_math.h"
 
 long double s21_exp(double x) {
-    int ex_pow = 0;
-    double result = 0;
-    double compare = 0;
-    printf("result = %lf\n", result);
-            for (; x >= S21_EXP; x /= S21_EXP, ex_pow++) continue;
-        int i;
-        printf("result = %lf\n", result);
-        for (i = 0; i < 100; i++) {
-            printf("result = %lf\n", result);
-            compare = result;
-            result = compare + 2 * (x - (double) s21_exp(compare)) / (x + (double) s21_exp(compare));
-        }
-    return (result + ex_pow);
+    long double result = 0;
+//    int check_minus = 0;
+//    x < 0 ? check_minus = 1 : 0;
+    int i = 0;
+    long double temp = pow_integer(x, i) / factorial(i);
+    while (temp > S21_EPS) {
+        temp = pow_integer(x, i) / factorial(i);
+        result += temp;
+        i++;
+//        printf("[DEBUG] %i: our = %Lf\tmath=%lf\n", i, result, pow(x, i) / );
+//        printf("[DEBUG] %d: pow = %Lf\tfactorial = %Lf\tresult = %Lf\tdivide = %Lf\n", i, pow_integer(x, i), factorial(i), result, pow_integer(x, i) / factorial(i));
+    }
+
+    x < 0 ? result = 1.0 / result : 0;
+    return result;
 } // возвращает значение e, возведенное в заданную степень

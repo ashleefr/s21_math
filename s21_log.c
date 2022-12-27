@@ -1,17 +1,16 @@
 #include "s21_math.h"
 
 long double s21_log(double x) {
-    long double result;
-    x = x - 1;
-    int i = 1;
-    long double temp = pow_integer(-1, i - 1) * (pow_integer(x, i) / i);
-    printf("\t[DEBUG] %d: pow = %Lf\tn = %d\tresult = %Lf\t temp = %.9Lf\n", i, pow_integer(x, i), i, result, temp);
-    while (s21_fabs(temp) > S21_EPS) {
-        temp = pow_integer(-1, i - 1) * (pow_integer(x, i) / i);
-        result += temp;
-        i++;
-        printf("\t[DEBUG] %d: pow = %Lf\tn = %d\tresult = %Lf\t temp = %.9Lf\n", i, pow_integer(x, i), i, result, temp);
+    int ex_pow = 0;
+    double result = 0;
+    double compare = 0;
+    for (; x >= S21_EXP; x /= S21_EXP, ex_pow++) {
+        continue;
     }
-
-    return result;
+    int i;
+    for (i = 0; i < 100; i++) {
+        compare = result;
+        result = compare + 2 * (x - (double) s21_exp(compare)) / (x + (double) s21_exp(compare));
+    }
+    return (result + ex_pow);
 }

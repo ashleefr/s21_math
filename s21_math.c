@@ -19,7 +19,7 @@ int main() {
     printf("[DONE]  fabs x is %.6Lf | need: %.6lf\n", s21_fabs(x), fabs(x));
     printf("[NOT DONE]  floor x is %.6Lf | need: %.6lf\n", s21_floor(x), floor(x));
     printf("[DONE]  fmod of x and y is %.6Lf | need: %.6lf\n", s21_fmod(x, y), fmod(x, y));
-    printf("[WORK]  log x is %.6Lf | need: %.6lf\n", s21_log(x), log(x));
+    printf("[DONE]  log x is %.6Lf | need: %.6lf\n", s21_log(x), log(x));
     printf("[NOT DONE]  pow x is %.6Lf | need: %.6lf\n", s21_pow(x, y), pow(x, y));
     printf("[NOT DONE]  sin x is %.6Lf | need: %.6lf\n", s21_sin(x), sin(x));
     printf("[NOT DONE]  sqrt x is %.6Lf | need: %.6lf\n", s21_sqrt(x), sqrt(x));

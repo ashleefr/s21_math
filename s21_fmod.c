@@ -7,11 +7,10 @@ long double s21_fmod(double x, double y) {
         x = -x;
     }
     y < 0 ? y = -y : 0;
-    long double result;
 
     while (x >= y) {
         x -= y;
     }
     check_minus ? x = -x : 0;
-    return x;
+    return (long double) x;
 } // остаток операции деления с плавающей точкой

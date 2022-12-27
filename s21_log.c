@@ -1,16 +1,41 @@
 #include "s21_math.h"
 
 long double s21_log(double x) {
-    int ex_pow = 0;
-    double result = 0;
-    double compare = 0;
-    for (; x >= S21_EXP; x /= S21_EXP, ex_pow++) {
-        continue;
+    int denominator = 2;
+    long double result = 0.0;
+    long double term, temp = 0;
+    int power_of_one = -1;
+    if (x == S21_INF) {
+        result = -S21_INF;
+    } else if (x < 0.0) {
+        result = S21_NAN;
+    } else if (x == 1.0) {
+        result = 0.;
+    } else if (x > 1.0) {
+        term = (x - 1.0) / x;
+        temp = term;
+        while (temp > S21_EPS) {
+            result += temp;
+            term *= (x - 1.0) / x;
+            temp = term * (1.0 / denominator);
+            denominator++;
+        }
+    } else if (x > 0.0 && x < 1.0) {
+        term = x - 1.0;
+        temp = term;
+        while (s21_fabs((double) temp) > S21_EPS) {
+            if (temp > S21_EPS) {
+                result -= temp;
+            } else {
+                result += temp;
+            }
+            term *= (x - 1.0);
+            temp = term * power_of_one;
+            temp /= denominator;
+            power_of_one *= -1;
+            denominator++;
+        }
+        result += temp;
     }
-    int i;
-    for (i = 0; i < 100; i++) {
-        compare = result;
-        result = compare + 2 * (x - (double) s21_exp(compare)) / (x + (double) s21_exp(compare));
-    }
-    return (result + ex_pow);
+    return result;
 }

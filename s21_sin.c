@@ -1,5 +1,21 @@
 #include "s21_math.h"
 
 long double s21_sin(double x) {
-    return 0.;
+    long double result = 0;
+    int sign = 1;
+    while (s21_abs(x) > 2 * S21_PI) {
+        if (x > 0) {
+            x -= 2 * S21_PI;
+        } else {
+            x += 2 * S21_PI;
+        }
+    }
+    for(int i = 1; i < 100; i += 2) {
+        result += sign * pow_integer(x, i) / factorial(i);
+        sign = -sign;
+    }
+    sign = -1;
+    (x > 0 && x < S21_PI) ? sign = 1 : 0;
+//    printf("\t[DEBUG] x = %lf\n", x);
+    return result;
 }

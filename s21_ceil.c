@@ -1,6 +1,5 @@
 #include "s21_math.h"
 
-
 long double s21_ceil(double x) {
     int result = 0;
     int check_minus = 0;

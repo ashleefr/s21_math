@@ -11,7 +11,7 @@ int main() {
 
     printf("[DONE]  abs x is %d | need: %d\n", s21_abs((int) x), abs((int) x)); // нужно сделать проверку на целое число
     printf("[NOT DONE]  acos x is %.6Lf | need: %.6lf\n", s21_acos(x), acos(x));
-    printf("[NOT DONE]  asin x is %.6Lf | need: %.6lf\n", s21_asin(x), asin(x));
+    printf("[DONE]  asin x is %.6Lf | need: %.6lf\n", s21_asin(x), asin(x));
     printf("[NOT DONE]  atan x is %.6Lf | need: %.6lf\n", s21_atan(x), atan(x));
     printf("[DONE]  ceil x is %.6Lf | need: %lf\n", s21_ceil(x), ceil(x));
     printf("[PRECISION]  cos x is %.6Lf | need: %.6lf\n", s21_cos(x), cos(x));

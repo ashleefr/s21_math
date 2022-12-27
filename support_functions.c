@@ -15,3 +15,16 @@ long double factorial(double x) {
     else
         return result * (factorial((double) result - 1));
 }
+
+long double double_factorial(int x) {
+    long double result = 1;
+    if (s21_fmod(x, 2) == 0) {
+        for (int i = 2; i <= x; i = i + 2)
+            result *= i;
+    } else if (s21_fmod(x, 2) == 1) {
+        for (int i = 1; i <= x; i = i + 2)
+            result *= i;
+    }
+
+    return result;
+}

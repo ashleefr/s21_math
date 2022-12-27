@@ -22,7 +22,7 @@ int main() {
     printf("[DONE]  log x is %.6Lf | need: %.6lf\n", s21_log(x), log(x));
     printf("[WORK]  pow x is %.6Lf | need: %.6lf\n", s21_pow(x, y), pow(x, y));
     printf("[DONE]  sin x is %.6Lf | need: %.6lf\n", s21_sin(x), sin(x));
-    printf("[NOT DONE]  sqrt x is %.6Lf | need: %.6lf\n", s21_sqrt(x), sqrt(x));
+    printf("[DONE]  sqrt x is %.6Lf | need: %.6lf\n", s21_sqrt(x), sqrt(x));
     printf("[NOT DONE]  tan x is %.6Lf | need: %.6lf\n", s21_tan(x), tan(x));
     return 0;
 }

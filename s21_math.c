@@ -10,11 +10,9 @@ int main() {
     scanf("%lf", &y);
 
     printf("[DONE]  abs x is %d | need: %d\n", s21_abs((int) x), abs((int) x)); // нужно сделать проверку на целое число
-    printf("[NOT DONE]  acos x is %.6Lf | need: %.6lf\n", s21_acos(x), acos(x));
+    printf("[DONE]  acos x is %.6Lf | need: %.6lf\n", s21_acos(x), acos(x));
     printf("[DONE]  asin x is %.6Lf | need: %.6lf\n", s21_asin(x), asin(x));
-    printf("[NOT DONE]  atan x is %.6Lf | need: %.6lf\n", s21_atan(x), atan(x));
-    printf("[WORK]  asin x is %.6Lf | need: %.6lf\n", s21_asin(x), asin(x));
-    printf("[WORK]  atan x is %.6Lf | need: %.6lf\n", s21_atan(x), atan(x));
+    printf("[DONE]  atan x is %.6Lf | need: %.6lf\n", s21_atan(x), atan(x));
     printf("[DONE]  ceil x is %.6Lf | need: %lf\n", s21_ceil(x), ceil(x));
     printf("[PRECISION]  cos x is %.6Lf | need: %.6lf\n", s21_cos(x), cos(x));
     printf("[DONE]  exp x is %.6Lf | need: %.6lf\n", s21_exp(x), exp(x)); // пока что работает только с целыми

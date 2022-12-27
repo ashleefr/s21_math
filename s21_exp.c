@@ -18,7 +18,3 @@ long double s21_exp(double x) {
     return result;
 } // возвращает значение e, возведенное в заданную степень
 
-long double s21_fabs(double x) {
-    x < 0 ? x = -x : 0;
-    return x;
-} // вычисляет абсолютное значение числа с плавающей точкой

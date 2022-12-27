@@ -4,7 +4,7 @@ long double s21_exp(double x) {
     long double result = 0;
 //    int check_minus = 0;
 //    x < 0 ? check_minus = 1 : 0;
-    int i = 0;
+    double i = 0;
     long double temp = pow_integer(x, i) / factorial(i);
     while (temp > S21_EPS) {
         temp = pow_integer(x, i) / factorial(i);

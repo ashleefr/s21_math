@@ -17,9 +17,9 @@ int main() {
     printf("[PRECISION]  cos x is %.6Lf | need: %.6lf\n", s21_cos(x), cos(x));
     printf("[DONE]  exp x is %.6Lf | need: %.6lf\n", s21_exp(x), exp(x)); // пока что работает только с целыми
     printf("[DONE]  fabs x is %.6Lf | need: %.6lf\n", s21_fabs(x), fabs(x));
-    printf("[NOT DONE]  floor x is %.6Lf | need: %.6lf\n", s21_floor(x), floor(x));
+    printf("[DONE]  floor x is %.6Lf | need: %.6lf\n", s21_floor(x), floor(x));
     printf("[DONE]  fmod of x and y is %.6Lf | need: %.6lf\n", s21_fmod(x, y), fmod(x, y));
-    printf("[DONE]  log x is %.6Lf | need: %.6lf\n", s21_log(x), log(x));
+    printf("[PRECISION]  log x is %.6Lf | need: %.6lf\n", s21_log(x), log(x));
     printf("[WORK]  pow x is %.6Lf | need: %.6lf\n", s21_pow(x, y), pow(x, y));
     printf("[PRECISION]  sin x is %.6Lf | need: %.6lf\n", s21_sin(x), sin(x));
     printf("[DONE]  sqrt x is %.6Lf | need: %.6lf\n", s21_sqrt(x), sqrt(x));

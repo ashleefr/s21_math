@@ -6,8 +6,8 @@
 #define S21_EXP 2.7182818284590452353602874713526624
 #define S21_PI 3.14159265358979323846264338327950288
 #define S21_EPS 1e-9
-#define S21_INF 1 / 0
-#define S21_NAN 0 / 0
+#define S21_INF 1.0 / 0.0
+#define S21_NAN 0.0 / 0.0
 //#define MAX_LONG_DOUBLE !ЧИСЛО!
 
  //// LIBRARIES ////
@@ -36,6 +36,6 @@ long double s21_tan(double x);
 //// SUPPORT FUNCTIONS ////
 
 long double pow_integer(double x, int n);
-long double factorial(int x);
+long double factorial(long double x);
 
 #endif // __S21_MATH__

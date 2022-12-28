@@ -288,7 +288,12 @@ CMakeFiles/s21_math.dir/s21_math.c.obj: C:/Users/ashleefr/Documents/DockerDirect
   C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/math.h
+  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/math.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h
 
 CMakeFiles/s21_math.dir/s21_pow.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_pow.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
@@ -431,6 +436,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h:
@@ -486,6 +493,14 @@ C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_floor.c:
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.c:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/math.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/time.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_pow.c:
 

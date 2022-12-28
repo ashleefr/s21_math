@@ -2,5 +2,5 @@
 
 long double s21_fabs(double x) {
     x < 0 ? x = -x : 0;
-    return x;
+    return (long double) x;
 } // вычисляет абсолютное значение числа с плавающей точкой

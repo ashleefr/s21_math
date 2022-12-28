@@ -35,8 +35,8 @@ long double s21_tan(double x);  // 	вычисляет тангенс
 
 //// SUPPORT FUNCTIONS ////
 
-long double pow_integer(double x, double n);  // возводит число в целую степень
-long double factorial(double x);  // вычисляет факториал числа
+long double pow_integer(double x, double n);
+long double factorial(double x);
 long double double_factorial(int x);  // вычисляет двойной факториал
 
 #endif // __S21_MATH__

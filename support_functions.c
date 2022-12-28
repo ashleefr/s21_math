@@ -4,7 +4,7 @@ long double pow_integer(double x, double n) {
     long double result = (long double) x;
     for (int i = 1; i < (int) n; i++)
         result *= x;
-    n == 0 ? result = 1 : 0;
+    n == 0 ? result = 1.0 : 0;
     return result;
 }
 

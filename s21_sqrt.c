@@ -5,6 +5,8 @@ long double s21_sqrt(double x) {
     long double temp = x;
     if (x < 0) {
         result = S21_NAN;
+    } else if (x == 0) {
+        result = 0;
     } else {
         result = 0.5 * (temp + x / temp);
         while (temp != result) {

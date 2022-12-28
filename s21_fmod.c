@@ -8,9 +8,10 @@ long double s21_fmod(double x, double y) {
     }
     y < 0 ? y = -y : 0;
 
-    while (x >= y) {
+    while (x >= y && y != 0) {
         x -= y;
     }
     check_minus ? x = -x : 0;
+    y == 0 ? x = S21_NAN: 0;
     return (long double) x;
 } // остаток операции деления с плавающей точкой

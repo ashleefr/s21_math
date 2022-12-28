@@ -14,7 +14,7 @@ long double s21_log(double x) {
     } else if (x > 1.0) {
         term = (x - 1.0) / x;
         temp = term;
-        while (temp > S21_EPS) {
+        while (denominator < 90000) {
             result += temp;
             term *= (x - 1.0) / x;
             temp = term * (1.0 / denominator);

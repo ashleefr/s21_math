@@ -8,6 +8,6 @@ long double s21_cos(double x) {
             x += 2 * S21_PI;
         }
     int sign = 1;
-    (s21_fabs(x) > S21_PI / 2) ? sign = -1: 0;
+    (x > S21_PI / 2 && x < 3 * S21_PI / 2) ? sign = -1: 0;
     return sign * s21_sqrt(1 - pow_integer((double) s21_sin(x), 2));
 }

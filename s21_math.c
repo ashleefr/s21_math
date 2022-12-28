@@ -1,5 +1,6 @@
 #include "s21_math.h"
 #include <math.h>
+#include <time.h>
 
 int main() {
     double x;
@@ -8,6 +9,9 @@ int main() {
     scanf("%lf", &x);
     printf("Insert y:");
     scanf("%lf", &y);
+
+    double time_spent = 0.0;
+    clock_t begin = clock();
 
     printf("[DONE]  abs x is %d | need: %d\n", s21_abs((int) x), abs((int) x)); // нужно сделать проверку на целое число
     printf("[DONE]  acos x is %.6Lf | need: %.6lf\n", s21_acos(x), acos(x));
@@ -24,5 +28,9 @@ int main() {
     printf("[PRECISION]  sin x is %.6Lf | need: %.6lf\n", s21_sin(x), sin(x));
     printf("[DONE]  sqrt x is %.6Lf | need: %.6lf\n", s21_sqrt(x), sqrt(x));
     printf("[PRECISION]  tan x is %.6Lf | need: %.6lf\n", s21_tan(x), tan(x));
+
+    clock_t end = clock();
+    time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("[TIME] The elapsed time is %f seconds", time_spent);
     return 0;
 }

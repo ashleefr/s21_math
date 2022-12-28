@@ -13,7 +13,7 @@
  //// LIBRARIES ////
 
 #include <stdio.h>
-//#include <stdlib.h>
+#include <stdlib.h>
 
 //// MAIN FUNCTIONS ////
 

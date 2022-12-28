@@ -3,12 +3,16 @@
 long double s21_sqrt(double x) {
     long double result = 0;
     long double temp = x;
-    result = 0.5 * (temp + x / temp);
-    while (temp != result) {
-        temp = result;
+    if (x < 0) {
+        result = S21_NAN;
+    } else {
         result = 0.5 * (temp + x / temp);
+        while (temp != result) {
+            temp = result;
+            result = 0.5 * (temp + x / temp);
 //        printf("\t[DEBUG] result = %Lf\n", result);
+        }
+        result = temp;
     }
-    result = temp;
     return result;
 }

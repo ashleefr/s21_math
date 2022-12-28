@@ -1,5 +1,0 @@
-# ninja log v5
-1	63	6935331938278585	CMakeFiles/Math.dir/main.c.obj	ed1866f8829b79a0
-63	134	6935331938945602	Math.exe	352faa9052c152a4
-1	240	6937353809337248	build.ninja	731a9cff4ecdf0f3
-4	63	6935325070135740	CMakeFiles/Math.dir/support_functions.c.obj	c7432dc96faebafa

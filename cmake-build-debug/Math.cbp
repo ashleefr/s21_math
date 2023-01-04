@@ -111,12 +111,6 @@
 		<Unit filename="C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_log.c">
 			<Option target="s21_math"/>
 		</Unit>
-		<Unit filename="C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.c">
-			<Option target="s21_math"/>
-		</Unit>
-		<Unit filename="C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h">
-			<Option target="s21_math"/>
-		</Unit>
 		<Unit filename="C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_pow.c">
 			<Option target="s21_math"/>
 		</Unit>
@@ -130,6 +124,9 @@
 			<Option target="s21_math"/>
 		</Unit>
 		<Unit filename="C:/Users/ashleefr/Documents/DockerDirectory/s21_math/support_functions.c">
+			<Option target="s21_math"/>
+		</Unit>
+		<Unit filename="C:/Users/ashleefr/Documents/DockerDirectory/s21_math/work_main.c">
 			<Option target="s21_math"/>
 		</Unit>
 		<Unit filename="C:/Users/ashleefr/Documents/DockerDirectory/s21_math/CMakeLists.txt">

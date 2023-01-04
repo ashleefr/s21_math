@@ -68,26 +68,11 @@ include CMakeFiles/s21_math.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/s21_math.dir/flags.make
 
-CMakeFiles/s21_math.dir/s21_math.c.obj: CMakeFiles/s21_math.dir/flags.make
-CMakeFiles/s21_math.dir/s21_math.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
-CMakeFiles/s21_math.dir/s21_math.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.c
-CMakeFiles/s21_math.dir/s21_math.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/s21_math.dir/s21_math.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_math.c.obj -MF CMakeFiles\s21_math.dir\s21_math.c.obj.d -o CMakeFiles\s21_math.dir\s21_math.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_math.c
-
-CMakeFiles/s21_math.dir/s21_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/s21_math.dir/s21_math.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_math.c > CMakeFiles\s21_math.dir\s21_math.c.i
-
-CMakeFiles/s21_math.dir/s21_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/s21_math.dir/s21_math.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_math.c -o CMakeFiles\s21_math.dir\s21_math.c.s
-
 CMakeFiles/s21_math.dir/s21_abs.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_abs.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_abs.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_abs.c
 CMakeFiles/s21_math.dir/s21_abs.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/s21_math.dir/s21_abs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/s21_math.dir/s21_abs.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_abs.c.obj -MF CMakeFiles\s21_math.dir\s21_abs.c.obj.d -o CMakeFiles\s21_math.dir\s21_abs.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_abs.c
 
 CMakeFiles/s21_math.dir/s21_abs.c.i: cmake_force
@@ -102,7 +87,7 @@ CMakeFiles/s21_math.dir/s21_acos.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_acos.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_acos.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_acos.c
 CMakeFiles/s21_math.dir/s21_acos.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/s21_math.dir/s21_acos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/s21_math.dir/s21_acos.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_acos.c.obj -MF CMakeFiles\s21_math.dir\s21_acos.c.obj.d -o CMakeFiles\s21_math.dir\s21_acos.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_acos.c
 
 CMakeFiles/s21_math.dir/s21_acos.c.i: cmake_force
@@ -117,7 +102,7 @@ CMakeFiles/s21_math.dir/s21_asin.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_asin.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_asin.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_asin.c
 CMakeFiles/s21_math.dir/s21_asin.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/s21_math.dir/s21_asin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/s21_math.dir/s21_asin.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_asin.c.obj -MF CMakeFiles\s21_math.dir\s21_asin.c.obj.d -o CMakeFiles\s21_math.dir\s21_asin.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_asin.c
 
 CMakeFiles/s21_math.dir/s21_asin.c.i: cmake_force
@@ -132,7 +117,7 @@ CMakeFiles/s21_math.dir/s21_atan.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_atan.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_atan.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_atan.c
 CMakeFiles/s21_math.dir/s21_atan.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/s21_math.dir/s21_atan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/s21_math.dir/s21_atan.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_atan.c.obj -MF CMakeFiles\s21_math.dir\s21_atan.c.obj.d -o CMakeFiles\s21_math.dir\s21_atan.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_atan.c
 
 CMakeFiles/s21_math.dir/s21_atan.c.i: cmake_force
@@ -147,7 +132,7 @@ CMakeFiles/s21_math.dir/s21_ceil.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_ceil.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_ceil.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_ceil.c
 CMakeFiles/s21_math.dir/s21_ceil.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/s21_math.dir/s21_ceil.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/s21_math.dir/s21_ceil.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_ceil.c.obj -MF CMakeFiles\s21_math.dir\s21_ceil.c.obj.d -o CMakeFiles\s21_math.dir\s21_ceil.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_ceil.c
 
 CMakeFiles/s21_math.dir/s21_ceil.c.i: cmake_force
@@ -162,7 +147,7 @@ CMakeFiles/s21_math.dir/s21_cos.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_cos.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_cos.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_cos.c
 CMakeFiles/s21_math.dir/s21_cos.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/s21_math.dir/s21_cos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/s21_math.dir/s21_cos.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_cos.c.obj -MF CMakeFiles\s21_math.dir\s21_cos.c.obj.d -o CMakeFiles\s21_math.dir\s21_cos.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_cos.c
 
 CMakeFiles/s21_math.dir/s21_cos.c.i: cmake_force
@@ -177,7 +162,7 @@ CMakeFiles/s21_math.dir/s21_exp.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_exp.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_exp.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_exp.c
 CMakeFiles/s21_math.dir/s21_exp.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/s21_math.dir/s21_exp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/s21_math.dir/s21_exp.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_exp.c.obj -MF CMakeFiles\s21_math.dir\s21_exp.c.obj.d -o CMakeFiles\s21_math.dir\s21_exp.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_exp.c
 
 CMakeFiles/s21_math.dir/s21_exp.c.i: cmake_force
@@ -192,7 +177,7 @@ CMakeFiles/s21_math.dir/s21_fabs.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_fabs.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_fabs.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_fabs.c
 CMakeFiles/s21_math.dir/s21_fabs.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/s21_math.dir/s21_fabs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/s21_math.dir/s21_fabs.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_fabs.c.obj -MF CMakeFiles\s21_math.dir\s21_fabs.c.obj.d -o CMakeFiles\s21_math.dir\s21_fabs.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_fabs.c
 
 CMakeFiles/s21_math.dir/s21_fabs.c.i: cmake_force
@@ -207,7 +192,7 @@ CMakeFiles/s21_math.dir/s21_floor.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_floor.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_floor.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_floor.c
 CMakeFiles/s21_math.dir/s21_floor.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/s21_math.dir/s21_floor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/s21_math.dir/s21_floor.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_floor.c.obj -MF CMakeFiles\s21_math.dir\s21_floor.c.obj.d -o CMakeFiles\s21_math.dir\s21_floor.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_floor.c
 
 CMakeFiles/s21_math.dir/s21_floor.c.i: cmake_force
@@ -222,7 +207,7 @@ CMakeFiles/s21_math.dir/s21_fmod.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_fmod.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_fmod.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_fmod.c
 CMakeFiles/s21_math.dir/s21_fmod.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/s21_math.dir/s21_fmod.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/s21_math.dir/s21_fmod.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_fmod.c.obj -MF CMakeFiles\s21_math.dir\s21_fmod.c.obj.d -o CMakeFiles\s21_math.dir\s21_fmod.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_fmod.c
 
 CMakeFiles/s21_math.dir/s21_fmod.c.i: cmake_force
@@ -237,7 +222,7 @@ CMakeFiles/s21_math.dir/s21_log.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_log.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_log.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_log.c
 CMakeFiles/s21_math.dir/s21_log.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/s21_math.dir/s21_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/s21_math.dir/s21_log.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_log.c.obj -MF CMakeFiles\s21_math.dir\s21_log.c.obj.d -o CMakeFiles\s21_math.dir\s21_log.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_log.c
 
 CMakeFiles/s21_math.dir/s21_log.c.i: cmake_force
@@ -252,7 +237,7 @@ CMakeFiles/s21_math.dir/s21_pow.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_pow.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_pow.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_pow.c
 CMakeFiles/s21_math.dir/s21_pow.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/s21_math.dir/s21_pow.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/s21_math.dir/s21_pow.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_pow.c.obj -MF CMakeFiles\s21_math.dir\s21_pow.c.obj.d -o CMakeFiles\s21_math.dir\s21_pow.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_pow.c
 
 CMakeFiles/s21_math.dir/s21_pow.c.i: cmake_force
@@ -267,7 +252,7 @@ CMakeFiles/s21_math.dir/s21_sin.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_sin.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_sin.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_sin.c
 CMakeFiles/s21_math.dir/s21_sin.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/s21_math.dir/s21_sin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/s21_math.dir/s21_sin.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_sin.c.obj -MF CMakeFiles\s21_math.dir\s21_sin.c.obj.d -o CMakeFiles\s21_math.dir\s21_sin.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_sin.c
 
 CMakeFiles/s21_math.dir/s21_sin.c.i: cmake_force
@@ -282,7 +267,7 @@ CMakeFiles/s21_math.dir/s21_sqrt.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_sqrt.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_sqrt.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_sqrt.c
 CMakeFiles/s21_math.dir/s21_sqrt.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/s21_math.dir/s21_sqrt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/s21_math.dir/s21_sqrt.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_sqrt.c.obj -MF CMakeFiles\s21_math.dir\s21_sqrt.c.obj.d -o CMakeFiles\s21_math.dir\s21_sqrt.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_sqrt.c
 
 CMakeFiles/s21_math.dir/s21_sqrt.c.i: cmake_force
@@ -297,7 +282,7 @@ CMakeFiles/s21_math.dir/s21_tan.c.obj: CMakeFiles/s21_math.dir/flags.make
 CMakeFiles/s21_math.dir/s21_tan.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/s21_tan.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_tan.c
 CMakeFiles/s21_math.dir/s21_tan.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/s21_math.dir/s21_tan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/s21_math.dir/s21_tan.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/s21_tan.c.obj -MF CMakeFiles\s21_math.dir\s21_tan.c.obj.d -o CMakeFiles\s21_math.dir\s21_tan.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\s21_tan.c
 
 CMakeFiles/s21_math.dir/s21_tan.c.i: cmake_force
@@ -312,7 +297,7 @@ CMakeFiles/s21_math.dir/support_functions.c.obj: CMakeFiles/s21_math.dir/flags.m
 CMakeFiles/s21_math.dir/support_functions.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
 CMakeFiles/s21_math.dir/support_functions.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/support_functions.c
 CMakeFiles/s21_math.dir/support_functions.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/s21_math.dir/support_functions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/s21_math.dir/support_functions.c.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/support_functions.c.obj -MF CMakeFiles\s21_math.dir\support_functions.c.obj.d -o CMakeFiles\s21_math.dir\support_functions.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\support_functions.c
 
 CMakeFiles/s21_math.dir/support_functions.c.i: cmake_force
@@ -323,9 +308,23 @@ CMakeFiles/s21_math.dir/support_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/s21_math.dir/support_functions.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ashleefr\Documents\DockerDirectory\s21_math\support_functions.c -o CMakeFiles\s21_math.dir\support_functions.c.s
 
+CMakeFiles/s21_math.dir/work_main.c.obj: CMakeFiles/s21_math.dir/flags.make
+CMakeFiles/s21_math.dir/work_main.c.obj: CMakeFiles/s21_math.dir/includes_C.rsp
+CMakeFiles/s21_math.dir/work_main.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/work_main.c
+CMakeFiles/s21_math.dir/work_main.c.obj: CMakeFiles/s21_math.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashleefr\Documents\DockerDirectory\s21_math\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/s21_math.dir/work_main.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/s21_math.dir/work_main.c.obj -MF CMakeFiles\s21_math.dir\work_main.c.obj.d -o CMakeFiles\s21_math.dir\work_main.c.obj -c C:\Users\ashleefr\Documents\DockerDirectory\s21_math\work_main.c
+
+CMakeFiles/s21_math.dir/work_main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/s21_math.dir/work_main.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ashleefr\Documents\DockerDirectory\s21_math\work_main.c > CMakeFiles\s21_math.dir\work_main.c.i
+
+CMakeFiles/s21_math.dir/work_main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/s21_math.dir/work_main.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ashleefr\Documents\DockerDirectory\s21_math\work_main.c -o CMakeFiles\s21_math.dir\work_main.c.s
+
 # Object files for target s21_math
 s21_math_OBJECTS = \
-"CMakeFiles/s21_math.dir/s21_math.c.obj" \
 "CMakeFiles/s21_math.dir/s21_abs.c.obj" \
 "CMakeFiles/s21_math.dir/s21_acos.c.obj" \
 "CMakeFiles/s21_math.dir/s21_asin.c.obj" \
@@ -341,12 +340,12 @@ s21_math_OBJECTS = \
 "CMakeFiles/s21_math.dir/s21_sin.c.obj" \
 "CMakeFiles/s21_math.dir/s21_sqrt.c.obj" \
 "CMakeFiles/s21_math.dir/s21_tan.c.obj" \
-"CMakeFiles/s21_math.dir/support_functions.c.obj"
+"CMakeFiles/s21_math.dir/support_functions.c.obj" \
+"CMakeFiles/s21_math.dir/work_main.c.obj"
 
 # External object files for target s21_math
 s21_math_EXTERNAL_OBJECTS =
 
-s21_math.exe: CMakeFiles/s21_math.dir/s21_math.c.obj
 s21_math.exe: CMakeFiles/s21_math.dir/s21_abs.c.obj
 s21_math.exe: CMakeFiles/s21_math.dir/s21_acos.c.obj
 s21_math.exe: CMakeFiles/s21_math.dir/s21_asin.c.obj
@@ -363,6 +362,7 @@ s21_math.exe: CMakeFiles/s21_math.dir/s21_sin.c.obj
 s21_math.exe: CMakeFiles/s21_math.dir/s21_sqrt.c.obj
 s21_math.exe: CMakeFiles/s21_math.dir/s21_tan.c.obj
 s21_math.exe: CMakeFiles/s21_math.dir/support_functions.c.obj
+s21_math.exe: CMakeFiles/s21_math.dir/work_main.c.obj
 s21_math.exe: CMakeFiles/s21_math.dir/build.make
 s21_math.exe: CMakeFiles/s21_math.dir/linklibs.rsp
 s21_math.exe: CMakeFiles/s21_math.dir/objects1.rsp

@@ -1,7 +1,7 @@
 GCC = gcc -Wall -Werror -Wextra -std=c11
 C_FILES = s21_*.c
 OBJ_FILES = s21_*.o
-FLAG_O = -o s21_math
+FLAG_O_TEST = -o s21_test
 FLAG_C = -c
 FLAG_GCOV = --coverage
 CLEAN_FILES = *.o *.out *.a *.gcno

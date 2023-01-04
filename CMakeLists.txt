@@ -6,7 +6,6 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_executable(s21_math
-        s21_math.c
         s21_abs.c
         s21_acos.c
         s21_asin.c
@@ -22,4 +21,5 @@ add_executable(s21_math
         s21_sin.c
         s21_sqrt.c
         s21_tan.c
-        support_functions.c)
+        support_functions.c
+        work_main.c)

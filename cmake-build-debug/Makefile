@@ -392,30 +392,6 @@ s21_log.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/s21_log.c.s
 .PHONY : s21_log.c.s
 
-s21_math.obj: s21_math.c.obj
-.PHONY : s21_math.obj
-
-# target to build an object file
-s21_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/s21_math.c.obj
-.PHONY : s21_math.c.obj
-
-s21_math.i: s21_math.c.i
-.PHONY : s21_math.i
-
-# target to preprocess a source file
-s21_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/s21_math.c.i
-.PHONY : s21_math.c.i
-
-s21_math.s: s21_math.c.s
-.PHONY : s21_math.s
-
-# target to generate assembly for a file
-s21_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/s21_math.c.s
-.PHONY : s21_math.c.s
-
 s21_pow.obj: s21_pow.c.obj
 .PHONY : s21_pow.obj
 
@@ -536,6 +512,30 @@ support_functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/support_functions.c.s
 .PHONY : support_functions.c.s
 
+work_main.obj: work_main.c.obj
+.PHONY : work_main.obj
+
+# target to build an object file
+work_main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/work_main.c.obj
+.PHONY : work_main.c.obj
+
+work_main.i: work_main.c.i
+.PHONY : work_main.i
+
+# target to preprocess a source file
+work_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/work_main.c.i
+.PHONY : work_main.c.i
+
+work_main.s: work_main.c.s
+.PHONY : work_main.s
+
+# target to generate assembly for a file
+work_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\s21_math.dir\build.make CMakeFiles/s21_math.dir/work_main.c.s
+.PHONY : work_main.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -578,9 +578,6 @@ help:
 	@echo ... s21_log.obj
 	@echo ... s21_log.i
 	@echo ... s21_log.s
-	@echo ... s21_math.obj
-	@echo ... s21_math.i
-	@echo ... s21_math.s
 	@echo ... s21_pow.obj
 	@echo ... s21_pow.i
 	@echo ... s21_pow.s
@@ -596,6 +593,9 @@ help:
 	@echo ... support_functions.obj
 	@echo ... support_functions.i
 	@echo ... support_functions.s
+	@echo ... work_main.obj
+	@echo ... work_main.i
+	@echo ... work_main.s
 .PHONY : help
 
 

@@ -19,12 +19,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_floor.c" "CMakeFiles/s21_math.dir/s21_floor.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_floor.c.obj.d"
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_fmod.c" "CMakeFiles/s21_math.dir/s21_fmod.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_fmod.c.obj.d"
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_log.c" "CMakeFiles/s21_math.dir/s21_log.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_log.c.obj.d"
-  "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.c" "CMakeFiles/s21_math.dir/s21_math.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_math.c.obj.d"
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_pow.c" "CMakeFiles/s21_math.dir/s21_pow.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_pow.c.obj.d"
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_sin.c" "CMakeFiles/s21_math.dir/s21_sin.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_sin.c.obj.d"
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_sqrt.c" "CMakeFiles/s21_math.dir/s21_sqrt.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_sqrt.c.obj.d"
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_tan.c" "CMakeFiles/s21_math.dir/s21_tan.c.obj" "gcc" "CMakeFiles/s21_math.dir/s21_tan.c.obj.d"
   "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/support_functions.c" "CMakeFiles/s21_math.dir/support_functions.c.obj" "gcc" "CMakeFiles/s21_math.dir/support_functions.c.obj.d"
+  "C:/Users/ashleefr/Documents/DockerDirectory/s21_math/work_main.c" "CMakeFiles/s21_math.dir/work_main.c.obj" "gcc" "CMakeFiles/s21_math.dir/work_main.c.obj.d"
   )
 
 # Targets to which this target links.

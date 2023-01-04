@@ -5,8 +5,8 @@ FLAG_O_TEST = -o s21_test
 FLAG_C = -c
 FLAG_GCOV = --coverage
 CLEAN_FILES = *.o *.out *.a *.gcno *.gcda test
-TEST_FILES_C = suite_s21_abs.c
-TEST_FILES_O = suite_s21_abs.o
+TEST_FILES_C = suite_*.c
+TEST_FILES_O = suite_*.o
 
 all: clean
 
@@ -24,7 +24,7 @@ test: clean s21_math.a
 	ar rc suite_tests.a $(TEST_FILES_O)
 	ranlib suite_tests.a
 	$(GCC) $(FLAG_GCOV) $(FLAG_O) s21_math.a suite_tests.a $(C_FILES) -lcheck -o test
-
+	./test
 
 gcov_report:
 

@@ -7,5 +7,6 @@
 #include "s21_math.h"
 
 Suite *suite_s21_abs(void);
+Suite *suite_s21_acos(void);
 
 #endif  //  __MATH_TESTS__

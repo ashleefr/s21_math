@@ -22,5 +22,4 @@ add_executable(s21_math
         s21_sin.c
         s21_sqrt.c
         s21_tan.c
-        support_functions.c
-        )
+        support_functions.c)

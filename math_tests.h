@@ -8,5 +8,7 @@
 
 Suite *suite_s21_abs(void);
 Suite *suite_s21_acos(void);
+Suite *suite_s21_asin(void);
+Suite *suite_s21_atan(void);
 
 #endif  //  __MATH_TESTS__

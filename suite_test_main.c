@@ -29,6 +29,27 @@ int main() {
     sr = srunner_create(suite_s21_fabs());
     run_test(sr);
 
+    sr = srunner_create(suite_s21_floor());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_fmod());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_log());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_pow());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_sin());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_sqrt());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_tan());
+    run_test(sr);
+
     return 0;
 }
 

@@ -17,6 +17,18 @@ int main() {
     sr = srunner_create(suite_s21_atan());
     run_test(sr);
 
+    sr = srunner_create(suite_s21_ceil());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_cos());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_exp());
+    run_test(sr);
+
+    sr = srunner_create(suite_s21_fabs());
+    run_test(sr);
+
     return 0;
 }
 

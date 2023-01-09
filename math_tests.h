@@ -6,6 +6,8 @@
 
 #include "s21_math.h"
 
+int run_test(SRunner *sr);
+
 Suite *suite_s21_abs(void);
 Suite *suite_s21_acos(void);
 Suite *suite_s21_asin(void);

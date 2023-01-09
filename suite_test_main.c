@@ -1,7 +1,5 @@
 #include "math_tests.h"
 
-int run_test(SRunner *sr);
-
 int main() {
     SRunner *sr;
 
@@ -55,8 +53,8 @@ int main() {
 
 int run_test(SRunner *sr) {
     int number_failed;
-    srunner_run_all(sr, CK_NORMAL);
 
+    srunner_run_all(sr, CK_NORMAL);
     number_failed = srunner_ntests_failed(sr);
     srunner_free(sr);
 

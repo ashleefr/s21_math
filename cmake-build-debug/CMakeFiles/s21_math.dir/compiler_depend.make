@@ -3,477 +3,477 @@
 
 CMakeFiles/s21_math.dir/s21_abs.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_abs.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_acos.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_acos.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_asin.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_asin.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_atan.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_atan.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_ceil.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_ceil.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_cos.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_cos.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_exp.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_exp.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_fabs.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_fabs.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_floor.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_floor.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_fmod.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_fmod.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_log.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_log.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_pow.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_pow.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_sin.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_sin.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_sqrt.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_sqrt.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/s21_tan.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_tan.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/support_functions.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/support_functions.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 CMakeFiles/s21_math.dir/work_main.c.obj: C:/Users/ashleefr/Documents/DockerDirectory/s21_math/work_main.c \
   C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/math.h
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/math.h
 
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_abs.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_math.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_fmod.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdio.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/corecrt.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/_mingw.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/work_main.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_exp.c:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_ceil.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_fabs.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_cos.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/limits.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/limits.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/support_functions.c:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_log.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_asin.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/errno.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/errno.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_sqrt.c:
 
@@ -489,4 +489,4 @@ C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_pow.c:
 
 C:/Users/ashleefr/Documents/DockerDirectory/s21_math/s21_tan.c:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3/bin/mingw/x86_64-w64-mingw32/include/math.h:
+C:/Users/ashleefr/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/x86_64-w64-mingw32/include/math.h:

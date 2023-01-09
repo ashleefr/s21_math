@@ -11,6 +11,8 @@ long double s21_log(double x) {
         result = S21_NAN;
     } else if (x == 1.0) {
         result = 0.;
+    } else if (x == 0.0) {
+        result = -S21_INF;
     } else if (x > 1.0) {
         term = (x - 1.0) / x;
         temp = term;

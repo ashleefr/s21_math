@@ -2,7 +2,7 @@
 
 long double s21_pow(double x, double y) {
     long double result = 0;
-    int sign = x < 0 ? -1 : 1;
+    int sign = x < 0 && s21_fmod(y, 2) == 1 ? -1 : 1;
     x = x < 0 ? -x : x;
     if (y < 0) {
         // y = -y;

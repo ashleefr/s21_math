@@ -25,7 +25,8 @@ START_TEST(test_sqrt_6) {
 } END_TEST
 
 START_TEST(test_sqrt_7) {
-    ck_assert_ldouble_eq_tol(s21_sqrt(-4.), sqrt(-4.), S21_CHECK);
+    ck_assert_ldouble_nan(s21_sqrt(-10));
+    ck_assert_ldouble_nan(sqrt(-10));
 } END_TEST
 
         Suite *suite_s21_sqrt(void) {

@@ -32,7 +32,18 @@ START_TEST(test_log_7) {
 } END_TEST
 
 START_TEST(test_log_8) {
-    ck_assert_ldouble_eq_tol(s21_log(0.0), log(0.0), S21_CHECK);
+    ck_assert_ldouble_infinite(s21_log(0.0));
+    ck_assert_ldouble_infinite(log(0.0));
+} END_TEST
+
+START_TEST(test_log_9) {
+    ck_assert_ldouble_infinite(s21_log(0.6));
+    ck_assert_ldouble_infinite(log(0.6));
+} END_TEST
+
+START_TEST(test_log_10) {
+    ck_assert_ldouble_infinite(s21_log(0.1));
+    ck_assert_ldouble_infinite(log(0.1));
 } END_TEST
 
         Suite *suite_s21_log(void) {
@@ -50,6 +61,8 @@ START_TEST(test_log_8) {
     tcase_add_test(tc_log, test_log_6);
     tcase_add_test(tc_log, test_log_7);
     tcase_add_test(tc_log, test_log_8);
+    tcase_add_test(tc_log, test_log_9);
+    tcase_add_test(tc_log, test_log_10);
 
     suite_add_tcase(s, tc_log);
     return s;

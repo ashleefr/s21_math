@@ -7,6 +7,18 @@ long double s21_log(double x) {
     int power_of_one = -1;
     if (x == S21_INF) {
         result = -S21_INF;
+    } else if (x > 0.0 && x < 1.0) {
+        term = x - 1.0;
+        temp = term;
+        while (s21_fabs((double) temp) > S21_EPS) {
+            result += temp;
+            term *= (x - 1.0);
+            temp = term * power_of_one;
+            temp /= denominator;
+            power_of_one *= -1;
+            denominator++;
+        }
+        result += temp;
     } else if (x < 0.0) {
         result = S21_NAN;
     } else if (x == 1.0) {
@@ -22,22 +34,6 @@ long double s21_log(double x) {
             temp = term * (1.0 / denominator);
             denominator++;
         }
-    } else if (x > 0.0 && x < 1.0) {
-        term = x - 1.0;
-        temp = term;
-        while (s21_fabs((double) temp) > S21_EPS) {
-            if (temp > S21_EPS) {
-                result -= temp;
-            } else {
-                result += temp;
-            }
-            term *= (x - 1.0);
-            temp = term * power_of_one;
-            temp /= denominator;
-            power_of_one *= -1;
-            denominator++;
-        }
-        result += temp;
-    }
+    } 
     return result;
 }

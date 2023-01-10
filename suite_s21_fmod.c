@@ -30,6 +30,14 @@ START_TEST(test_fmod_7) {
     ck_assert_ldouble_nan(fmod(S21_NAN, S21_NAN));
 } END_TEST
 
+START_TEST(test_fmod_8) {
+    ck_assert_ldouble_eq_tol(s21_fmod(-0.5, -5), fmod(-0.5, -5), S21_CHECK);
+} END_TEST
+
+START_TEST(test_fmod_9) {
+    ck_assert_ldouble_eq_tol(s21_fmod(8, -5), fmod(8, -5), S21_CHECK);
+} END_TEST
+
 Suite *suite_s21_fmod(void) {
     Suite *s;
     TCase *tc_fmod;
@@ -44,6 +52,8 @@ Suite *suite_s21_fmod(void) {
     tcase_add_test(tc_fmod, test_fmod_5);
     tcase_add_test(tc_fmod, test_fmod_6);
     tcase_add_test(tc_fmod, test_fmod_7);
+    tcase_add_test(tc_fmod, test_fmod_8);
+    tcase_add_test(tc_fmod, test_fmod_9);
 
     suite_add_tcase(s, tc_fmod);
     return s;

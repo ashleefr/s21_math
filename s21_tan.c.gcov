@@ -1,6 +1,0 @@
-        -:    0:Source:s21_tan.c
-        -:    1:#include "s21_math.h"
-        -:    2:
-        6:    3:long double s21_tan(double x) {
-        6:    4:    return s21_sin(x) / s21_cos(x);
-        -:    5:}

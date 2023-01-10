@@ -24,7 +24,15 @@ START_TEST(test_cos_6) {
     ck_assert_ldouble_eq_tol(s21_cos(-0.5), cos(-0.5), S21_CHECK);
 } END_TEST
 
-        Suite *suite_s21_cos(void) {
+START_TEST(test_cos_7) {
+    ck_assert_ldouble_eq_tol(s21_cos(8.5), cos(8.5), S21_CHECK);
+} END_TEST
+
+START_TEST(test_cos_8) {
+    ck_assert_ldouble_eq_tol(s21_cos(-6.5), cos(-6.5), S21_CHECK);
+} END_TEST
+
+Suite *suite_s21_cos(void) {
     Suite *s;
     TCase *tc_cos;
 
@@ -37,6 +45,8 @@ START_TEST(test_cos_6) {
     tcase_add_test(tc_cos, test_cos_4);
     tcase_add_test(tc_cos, test_cos_5);
     tcase_add_test(tc_cos, test_cos_6);
+    tcase_add_test(tc_cos, test_cos_7);
+    tcase_add_test(tc_cos, test_cos_8);
 
     suite_add_tcase(s, tc_cos);
     return s;

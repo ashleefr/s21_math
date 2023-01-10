@@ -27,6 +27,7 @@ START_TEST(test_asin_6) {
     ck_assert_ldouble_eq_tol(s21_asin(-0.5), asin(-0.5), S21_CHECK);
 } END_TEST
 
+
 Suite *suite_s21_asin(void) {
     Suite *s;
     TCase *tc_asin;
@@ -40,6 +41,7 @@ Suite *suite_s21_asin(void) {
     tcase_add_test(tc_asin, test_asin_4);
     tcase_add_test(tc_asin, test_asin_5);
     tcase_add_test(tc_asin, test_asin_6);
+
 
     suite_add_tcase(s, tc_asin);
     return s;

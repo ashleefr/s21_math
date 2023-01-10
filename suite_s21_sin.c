@@ -24,7 +24,15 @@ START_TEST(test_sin_6) {
     ck_assert_ldouble_eq_tol(s21_sin(-0.5), sin(-0.5), S21_CHECK);
 } END_TEST
 
-        Suite *suite_s21_sin(void) {
+START_TEST(test_sin_7) {
+    ck_assert_ldouble_eq_tol(s21_sin(-8.5), sin(-8.5), S21_CHECK);
+} END_TEST
+
+START_TEST(test_sin_8) {
+    ck_assert_ldouble_eq_tol(s21_sin(8.5), sin(8.5), S21_CHECK);
+} END_TEST
+
+Suite *suite_s21_sin(void) {
     Suite *s;
     TCase *tc_sin;
 
@@ -37,6 +45,8 @@ START_TEST(test_sin_6) {
     tcase_add_test(tc_sin, test_sin_4);
     tcase_add_test(tc_sin, test_sin_5);
     tcase_add_test(tc_sin, test_sin_6);
+    tcase_add_test(tc_sin, test_sin_7);
+    tcase_add_test(tc_sin, test_sin_8);
 
     suite_add_tcase(s, tc_sin);
     return s;

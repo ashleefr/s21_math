@@ -24,6 +24,10 @@ START_TEST(test_sqrt_6) {
     ck_assert_ldouble_eq_tol(s21_sqrt(-0.5), sqrt(-0.5), S21_CHECK);
 } END_TEST
 
+START_TEST(test_sqrt_7) {
+    ck_assert_ldouble_eq_tol(s21_sqrt(-4.), sqrt(-4.), S21_CHECK);
+} END_TEST
+
         Suite *suite_s21_sqrt(void) {
     Suite *s;
     TCase *tc_sqrt;
@@ -37,7 +41,8 @@ START_TEST(test_sqrt_6) {
     tcase_add_test(tc_sqrt, test_sqrt_4);
     tcase_add_test(tc_sqrt, test_sqrt_5);
     tcase_add_test(tc_sqrt, test_sqrt_6);
-
+    tcase_add_test(tc_sqrt, test_sqrt_7);
+    
     suite_add_tcase(s, tc_sqrt);
     return s;
 }

@@ -24,6 +24,14 @@ START_TEST(test_pow_6) {
     ck_assert_ldouble_eq_tol(s21_pow(-0.5, 5), pow(-0.5, 5), S21_CHECK);
 } END_TEST
 
+START_TEST(test_pow_7) {
+        ck_assert_ldouble_eq_tol(s21_pow(0.0, 1.0), pow(0.0, 1.0), S21_CHECK);
+} END_TEST
+
+START_TEST(test_pow_8) {
+        ck_assert_ldouble_eq_tol(s21_pow(10.0, -1.0), pow(10.0, -1.0), S21_CHECK);
+} END_TEST
+
 Suite *suite_s21_pow(void) {
     Suite *s;
     TCase *tc_pow;
@@ -37,6 +45,8 @@ Suite *suite_s21_pow(void) {
     tcase_add_test(tc_pow, test_pow_4);
     tcase_add_test(tc_pow, test_pow_5);
     tcase_add_test(tc_pow, test_pow_6);
+    tcase_add_test(tc_pow, test_pow_7);
+    tcase_add_test(tc_pow, test_pow_8);
 
     suite_add_tcase(s, tc_pow);
 return s;

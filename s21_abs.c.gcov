@@ -1,7 +1,0 @@
-        -:    0:Source:s21_abs.c
-        -:    1:#include "s21_math.h" 
-        -:    2:
-       42:    3:int s21_abs(int x) {
-       42:    4:    x < 0 ? x = -x : 0;
-       42:    5:    return x;
-        -:    6:}

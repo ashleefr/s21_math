@@ -1,0 +1,36 @@
+        -:    0:Source:s21_atan.c
+        -:    1:#include "s21_math.h"
+        -:    2:
+        6:    3:long double s21_atan(double x){
+        6:    4:    long double temp, result = 0.; 
+        6:    5:    if (x == -1) {
+        1:    6:        result = - S21_PI / 4;
+        5:    7:    } else if (x == 1) {
+        1:    8:        result = S21_PI / 4;
+        4:    9:    } else if  (s21_fabs(x) < 1) {
+        3:   10:        long double x_degree = x;
+    15003:   11:        for (int n = 0; n < 5000; n++) {
+    15000:   12:            temp = pow_integer(-1.0, n) * x_degree / (2 * n + 1);
+    15000:   13:            result += temp;
+    15000:   14:            x_degree *= x * x;
+        -:   15:        }
+        1:   16:    } else if (x > 0){
+        1:   17:        long double x_degree = 1 / x;
+     7001:   18:        for (int i = 0; i < 7000; i++) {
+     7000:   19:            temp = s21_pow(-1, i) * x_degree / (2 * i + 1);
+     7000:   20:            result += temp;
+     7000:   21:            x_degree *= 1 / (x * x);
+        -:   22:        }
+        1:   23:        result = S21_PI / 2 - result;
+        -:   24:    } else {
+    #####:   25:        double tmp = s21_fabs(x);
+    #####:   26:        long double x_degree = 1 / tmp;
+    #####:   27:        for (int i = 0; i < 7000; i++) {
+    #####:   28:            temp = s21_pow(-1, i) * x_degree / (2 * i + 1);
+    #####:   29:            result += temp;
+    #####:   30:            x_degree *= 1 / (tmp * tmp);
+        -:   31:        }
+    #####:   32:        result = - (S21_PI / 2 - result);}
+        -:   33:     
+        6:   34:    return result;
+        -:   35:}

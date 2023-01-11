@@ -1,0 +1,17 @@
+        -:    0:Source:s21_pow.c
+        -:    1:#include "s21_math.h"
+        -:    2:
+     7006:    3:long double s21_pow(double x, double y) {
+     7006:    4:    long double result = 0;
+     7006:    5:    int sign = x < 0 && s21_fmod(y, 2) != 0 ? -1 : 1;
+     7006:    6:    if (x < 0 && s21_fmod(y, 1) != 0) {
+    #####:    7:        result = S21_NAN;
+        -:    8:    } else {
+     7006:    9:        x = x < 0 ? -x : x; 
+        -:   10:        //    x = y < 0 ? 1 / x : x;
+     7006:   11:        result = s21_exp(y * (double) s21_log(x));
+        -:   12:
+        -:   13:    }
+        -:   14:    
+     7006:   15:    return sign * result;
+        -:   16:} // x^y = e^(y*ln(x))

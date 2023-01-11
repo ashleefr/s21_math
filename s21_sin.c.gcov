@@ -1,0 +1,21 @@
+        -:    0:Source:s21_sin.c
+        -:    1:#include "s21_math.h"
+        -:    2:
+       28:    3:long double s21_sin(double x) {
+       28:    4:    long double result = 0, temp;
+       30:    5:    while (s21_abs(x) > 2 * S21_PI) {
+        2:    6:        if (x > 0) {
+        1:    7:            x -= 2 * S21_PI;
+        -:    8:        } else {
+        1:    9:            x += 2 * S21_PI;
+        -:   10:        }
+        -:   11:    }
+       28:   12:    temp = x;
+     1400:   13:    for(int i = 3; i < 100; i += 2) {
+     1372:   14:        result += temp;
+     1372:   15:        temp *=  - x * x / (i * (i - 1));
+        -:   16:        // printf("[DEBUG] temp = %Lf  temp1 = %Lf\n", temp, temp1);
+        -:   17:        // getchar();
+        -:   18:    }
+       28:   19:    return result;
+        -:   20:}

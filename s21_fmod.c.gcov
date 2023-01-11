@@ -1,0 +1,18 @@
+        -:    0:Source:s21_fmod.c
+        -:    1:#include "s21_math.h"
+        -:    2:
+    15795:    3:long double s21_fmod(double x, double y) {
+    15795:    4:    int check_minus = 0;
+    15795:    5:    if (x < y) {
+       19:    6:        check_minus = 1;
+       19:    7:        x = -x;
+        -:    8:    }
+    15795:    9:    y < 0 ? y = -y : 0;
+        -:   10:
+ 36846720:   11:    while (x >= y && y != 0) {
+ 36830925:   12:        x -= y;
+        -:   13:    }
+    15795:   14:    check_minus ? x = -x : 0;
+    15795:   15:    y == 0 ? x = S21_NAN: 0;
+    15795:   16:    return (long double) x;
+        -:   17:} // остаток операции деления с плавающей точкой

@@ -1,0 +1,7 @@
+        -:    0:Source:s21_fabs.c
+        -:    1:#include "s21_math.h"
+        -:    2:
+      125:    3:long double s21_fabs(double x) {
+      125:    4:    x < 0 ? x = -x : 0;
+      125:    5:    return (long double) x;
+        -:    6:} // вычисляет абсолютное значение числа с плавающей точкой

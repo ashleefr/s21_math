@@ -1,0 +1,40 @@
+        -:    0:Source:s21_log.c
+        -:    1:#include "s21_math.h"
+        -:    2:
+     7013:    3:long double s21_log(double x) {
+     7013:    4:    int denominator = 2;
+     7013:    5:    long double result = 0.0;
+     7013:    6:    long double term, temp = 0;
+     7013:    7:    int power_of_one = -1;
+     7013:    8:    if (x == S21_INF) {
+        1:    9:        result = -S21_INF;
+     7012:   10:    } else if (x > 0.0 && x < 1.0) {
+        3:   11:        term = x - 1.0;
+        3:   12:        temp = term;
+       78:   13:        while (s21_fabs((double) temp) > S21_EPS) {
+       75:   14:            result += temp;
+       75:   15:            term *= (x - 1.0);
+       75:   16:            temp = term * power_of_one;
+       75:   17:            temp /= denominator;
+       75:   18:            power_of_one *= -1;
+       75:   19:            denominator++;
+        -:   20:        }
+        3:   21:        result += temp;
+     7009:   22:    } else if (x < 0.0) {
+        2:   23:        result = S21_NAN;
+     7007:   24:    } else if (x == 1.0) {
+     7003:   25:        result = 0.;
+        4:   26:    } else if (x == 0.0) {
+        1:   27:        result = -S21_INF;
+        3:   28:    } else if (x > 1.0) {
+        3:   29:        term = (x - 1.0) / x;
+        3:   30:        temp = term;
+   269997:   31:        while (denominator < 90000) {
+   269994:   32:            result += temp;
+   269994:   33:            term *= (x - 1.0) / x;
+   269994:   34:            temp = term * (1.0 / denominator);
+   269994:   35:            denominator++;
+        -:   36:        }
+        -:   37:    } 
+     7013:   38:    return result;
+        -:   39:}

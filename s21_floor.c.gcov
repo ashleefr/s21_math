@@ -1,0 +1,8 @@
+        -:    0:Source:s21_floor.c
+        -:    1:#include "s21_math.h"
+        -:    2:
+        6:    3:long double s21_floor(double x) {
+        -:    4:    long double result;
+        6:    5:    result = s21_ceil(x) == x ? s21_ceil(x) : s21_ceil(x) - 1;
+        6:    6:    return result;
+        -:    7:}

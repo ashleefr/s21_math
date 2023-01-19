@@ -7,6 +7,8 @@ long double s21_sqrt(double x) {
         result = S21_NAN;
     } else if (x == 0) {
         result = 0;
+    } else if(x == S21_INF) {
+        result = S21_INF;
     } else {
         result = 0.5 * (temp + x / temp);
         while (temp != result) {

@@ -13,7 +13,8 @@ START_TEST(test_sqrt_3) {
 } END_TEST
 
 START_TEST(test_sqrt_4) {
-    ck_assert_ldouble_eq_tol(s21_sqrt(-1.), sqrt(-1.), S21_CHECK);
+    ck_assert_ldouble_nan(s21_sqrt(-1.));
+    ck_assert_ldouble_nan(sqrt(-1.));
 } END_TEST
 
 START_TEST(test_sqrt_5) {
@@ -21,7 +22,8 @@ START_TEST(test_sqrt_5) {
 } END_TEST
 
 START_TEST(test_sqrt_6) {
-    ck_assert_ldouble_eq_tol(s21_sqrt(-0.5), sqrt(-0.5), S21_CHECK);
+    ck_assert_ldouble_nan(s21_sqrt(-0.5));
+    ck_assert_ldouble_nan(sqrt(-0.5));
 } END_TEST
 
 START_TEST(test_sqrt_7) {
@@ -30,7 +32,8 @@ START_TEST(test_sqrt_7) {
 } END_TEST
 
 START_TEST(test_sqrt_8) {
-    ck_assert_ldouble_eq_tol(s21_sqrt(S21_INF), sqrt(S21_INF), S21_CHECK);
+    ck_assert_ldouble_infinite(s21_sqrt(S21_INF));
+    ck_assert_ldouble_infinite(sqrt(S21_INF));
 } END_TEST
 
 START_TEST(test_sqrt_9) {
@@ -38,8 +41,7 @@ START_TEST(test_sqrt_9) {
     ck_assert_ldouble_nan(sqrt(-10));
 } END_TEST
 
-
-        Suite *suite_s21_sqrt(void) {
+Suite *suite_s21_sqrt(void) {
     Suite *s;
     TCase *tc_sqrt;
 

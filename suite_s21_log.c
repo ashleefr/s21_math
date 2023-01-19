@@ -1,7 +1,8 @@
 #include "math_tests.h"
 
 START_TEST(test_log_1) {
-        ck_assert_ldouble_eq_tol(s21_log(0.), log(0.), S21_CHECK);
+        ck_assert_ldouble_infinite(s21_log(0.));
+        ck_assert_ldouble_infinite(log(0.));
 } END_TEST
 
 START_TEST(test_log_2) {
@@ -37,13 +38,11 @@ START_TEST(test_log_8) {
 } END_TEST
 
 START_TEST(test_log_9) {
-    ck_assert_ldouble_infinite(s21_log(0.6));
-    ck_assert_ldouble_infinite(log(0.6));
+    ck_assert_ldouble_eq_tol(s21_log(0.6), log(0.6), S21_CHECK);
 } END_TEST
 
 START_TEST(test_log_10) {
-    ck_assert_ldouble_infinite(s21_log(0.1));
-    ck_assert_ldouble_infinite(log(0.1));
+    ck_assert_ldouble_eq_tol(s21_log(0.1), log(0.1), S21_CHECK);
 } END_TEST
 
         Suite *suite_s21_log(void) {

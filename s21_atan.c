@@ -1,7 +1,7 @@
 #include "s21_math.h"
 
 long double s21_atan(double x){
-    long double temp, result = 0.; 
+    long double temp, result = 0.;
     if (x == -1) {
         result = - S21_PI / 4;
     } else if (x == 1) {

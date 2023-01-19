@@ -24,6 +24,10 @@ START_TEST(test_atan_6) {
     ck_assert_ldouble_eq_tol(s21_atan(-0.5), atan(-0.5), S21_CHECK);
 } END_TEST
 
+START_TEST(test_atan_7) {
+    ck_assert_ldouble_eq_tol(s21_atan(-5), atan(-5), S21_CHECK);
+} END_TEST
+
 Suite *suite_s21_atan(void) {
     Suite *s;
     TCase *tc_atan;
@@ -37,6 +41,7 @@ Suite *suite_s21_atan(void) {
     tcase_add_test(tc_atan, test_atan_4);
     tcase_add_test(tc_atan, test_atan_5);
     tcase_add_test(tc_atan, test_atan_6);
+    tcase_add_test(tc_atan, test_atan_7);
 
     suite_add_tcase(s, tc_atan);
     return s;

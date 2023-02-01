@@ -1,4 +1,4 @@
-#include "math_tests.h"
+#include "../headers/math_tests.h"
 
 int main() {
   SRunner *sr;

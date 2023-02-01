@@ -1,6 +1,6 @@
 #include <math.h>
 
-#include "/../headers/s21_math.h"
+#include "../headers/s21_math.h"
 
 int main() {
   double x;

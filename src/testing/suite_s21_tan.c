@@ -1,4 +1,4 @@
-#include "math_tests.h"
+#include "../headers/math_tests.h"
 
 START_TEST(test_tan_1) {
   ck_assert_ldouble_eq_tol(s21_tan(0.), tan(0.), S21_CHECK);

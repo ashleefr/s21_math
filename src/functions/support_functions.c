@@ -1,4 +1,4 @@
-#include "/../headers/s21_math.h"
+#include "../headers/s21_math.h"
 
 long double pow_integer(double x, double n) {
   long double result = (long double)x;

@@ -1,4 +1,4 @@
-#include "/../headers/s21_math.h"
+#include "../headers/s21_math.h"
 
 long double s21_log(double x) {
   int denominator = 2;

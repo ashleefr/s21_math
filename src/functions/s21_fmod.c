@@ -1,4 +1,4 @@
-#include "/../headers/s21_math.h"
+#include "../headers/s21_math.h"
 
 long double s21_fmod(double x, double y) {
   int check_minus = 0;

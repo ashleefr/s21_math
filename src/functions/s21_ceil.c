@@ -1,4 +1,4 @@
-#include "/../headers/s21_math.h"
+#include "../headers/s21_math.h"
 
 long double s21_ceil(double x) {
   double result = 0;

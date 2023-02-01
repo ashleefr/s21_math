@@ -1,4 +1,4 @@
-#include "math_tests.h"
+#include "../headers/math_tests.h"
 
 START_TEST(test_fmod_1) {
   ck_assert_ldouble_nan(s21_fmod(0.0, 0.0));

@@ -1,4 +1,4 @@
-#include "/../headers/s21_math.h"
+#include "../headers/s21_math.h"
 
 long double s21_fabs(double x) {
   x < 0 ? x = -x : 0;

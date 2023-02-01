@@ -1,6 +1,5 @@
-#ifndef __S21_MATH__
-#define __S21_MATH__
-
+#ifndef __SRC_HEADERS_S21_MATH__
+#define __SRC_HEADERS_S21_MATH__
 //// CONSTANTS ////
 
 #define S21_EXP 2.7182818284590452353602874713526624
@@ -45,4 +44,4 @@ long double pow_integer(double x, double n);
 long double factorial(double x);
 long double double_factorial(int x);  // вычисляет двойной факториал
 
-#endif  // __S21_MATH__
+#endif  // __SRC_HEADERS_S21_MATH__

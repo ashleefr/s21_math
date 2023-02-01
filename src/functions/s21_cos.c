@@ -1,4 +1,4 @@
-#include "/../headers/s21_math.h"
+#include "../headers/s21_math.h"
 
 long double s21_cos(double x) {
   while (s21_fabs(x) > 2 * S21_PI)

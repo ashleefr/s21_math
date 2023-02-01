@@ -4,9 +4,9 @@ FLAG_C = -c
 FLAG_GCOV = --coverage
 
 CLEAN_FILES = *.o *.out *.a *.gcno *.gcda test *.html *.gcov *.css
-C_FILES = s21_*.c support_functions.c
+C_FILES = ./functions/s21_*.c ./functions/support_functions.c
 OBJ_FILES = s21_*.o support_functions.o
-TEST_FILES_C = suite_*.c
+TEST_FILES_C = ./testing/suite_*.c
 TEST_FILES_O = suite_*.o
 GCOV_FILES = *.gcda
 
@@ -31,9 +31,10 @@ test: clean s21_math.a
 gcov_report: test
 	gcov $(GCOV_FILES)
 	gcovr --html-details -o report.html
+	rm -rf *.o *.gcda *.gcno *.gcov
 
 work: clean
-	$(GCC) $(C_FILES) work_main.c -o s21_work_main.out
+	$(GCC) $(C_FILES) ./functions/work_main.c -o s21_work_main.out
 
 style_test: clean
 	clang-format -n *.c *.h

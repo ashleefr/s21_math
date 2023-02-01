@@ -1,5 +1,5 @@
-#ifndef __MATH_TESTS__
-#define __MATH_TESTS__
+#ifndef __SRC_HEADERS_MATH_TESTS__
+#define __SRC_HEADERS_MATH_TESTS__
 
 #include <check.h>
 #include <math.h>
@@ -24,4 +24,4 @@ Suite *suite_s21_sin(void);
 Suite *suite_s21_sqrt(void);
 Suite *suite_s21_tan(void);
 
-#endif  //  __MATH_TESTS__
+#endif  //  __SRC_HEADERS_MATH_TESTS__

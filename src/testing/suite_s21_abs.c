@@ -1,4 +1,4 @@
-#include "math_tests.h"
+#include "../headers/math_tests.h"
 
 START_TEST(test_abs_1) { ck_assert_int_eq(s21_abs(0), abs(0)); }
 END_TEST

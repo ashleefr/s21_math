@@ -1,4 +1,4 @@
-#include "math_tests.h"
+#include "../headers/math_tests.h"
 
 START_TEST(test_log_1) {
   ck_assert_ldouble_infinite(s21_log(0.));

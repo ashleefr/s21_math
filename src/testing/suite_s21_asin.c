@@ -1,4 +1,4 @@
-#include "math_tests.h"
+#include "../headers/math_tests.h"
 
 START_TEST(test_asin_1) {
   ck_assert_ldouble_eq_tol(s21_asin(0), asin(0), S21_CHECK);

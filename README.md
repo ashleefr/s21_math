@@ -1,3 +1,5 @@
+[EN | [RU](https://github.com/ashleefr/s21_math/blob/main/README_RU.md)]
+
 # Own implementation of the library "math.h"
 
 The project is the task of the School 21
